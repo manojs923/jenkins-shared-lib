@@ -1,7 +1,7 @@
 def call() {
     echo "Installing dependencies..."
-    sh 'npm install'
+    bat 'npm install'
 
     echo "Building project..."
-    sh 'npm run build'
+    bat 'npm run build'
 }
